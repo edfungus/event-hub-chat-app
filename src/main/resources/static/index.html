@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name = "viewport" content = "width = device-width">
+        <meta name = "viewport" content = "initial-scale = 1.0">
+        <meta name="apple-mobile-web-app-status-bar-style" content="translucent">
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="chat/chat.css">        
+    </head>
+    <body id=floor>
+        <script src="https://cdn.jsdelivr.net/sockjs/1/sockjs.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+        <script src="chat/websockets.js"></script>
+        <script src="animate.js"></script>        
+        <script src="chat/chat.js"></script>
+        <div id="hidden-name" class="vertical-align center name-head">&#40;&#111;&#94;&#94;&#41;&#111;</div>
+        <div id="conversation-container"></div>      
+        <div id="backdrop"></div>
+    </body>
+</html>
